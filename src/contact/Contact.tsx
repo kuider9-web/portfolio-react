@@ -1,4 +1,4 @@
-import { useState,} from 'react';
+import { useState, type FormEvent} from 'react';
 import { image } from '../assets/image'
 import './Contact.css';
 
@@ -7,7 +7,7 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent) => {
   e.preventDefault();
   alert('Message envoyé !');
 };
