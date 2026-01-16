@@ -1,0 +1,19 @@
+.tech{
+    font-size: 3em;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+ font-size: 2em;
+}
+.article a {
+    color: white;
+}
+.lire {
+    text-align: center;
+}

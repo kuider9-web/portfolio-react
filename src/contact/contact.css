@@ -1,0 +1,38 @@
+
+.contact-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  color: black;
+}
+
+.contact-form {
+  background: #1e1e1e;
+  padding: 50px;
+  border-radius: 20px;
+  height: 10em;
+  width: 40em;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+input,
+textarea {
+  width: 100%;
+}
