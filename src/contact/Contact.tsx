@@ -26,7 +26,7 @@ function Contact() {
         <p>steve@mail.com</p>
         <p>CALL ME</p>
         <p>+216 21 184 010</p>
-        <div className="social-links">
+        <div className="lien-social">
           <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" className="social-link" target='blank'><img src={image.linkedin} alt="lien linkedine" /></a>
           <a href="https://github.com/kuider9-web" className="social-link"><img src={image.github} alt="lien github" /></a>
         </div>
