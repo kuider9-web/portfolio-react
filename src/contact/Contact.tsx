@@ -1,6 +1,6 @@
 import { useState, type FormEvent} from 'react';
 import { image } from '../assets/image'
-import './Contact.css';
+import './contact.css';
 
 function Contact() {
   const [name, setName] = useState('');
